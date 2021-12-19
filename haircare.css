@@ -1,0 +1,959 @@
+body{
+    width: 80%;
+    margin: auto;
+    background-color: whitesmoke;
+}
+#haircare{
+    height: 8400px;
+    margin-top: auto;
+}
+select{
+    border: 0px;
+}
+ #haircare{
+    display: flex;
+}
+.filterproducts{
+    border: 1px solid transparent;
+    width: 300px;
+    height: 500px;
+    
+}
+.hairproducts{
+  border:1px solid transparent;
+    width: 76%;
+    height: 1000px;
+    margin-left: 2%;
+}
+#head{
+    font-size: 25px;
+    line-height: 0px;
+}
+.info{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14.4px;
+    line-height: 19px;
+}
+#sortby{
+    width: 250px;
+    height: 40px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+.hairproducts1{
+    border:1px solid transparent ;
+   margin-top: 10px;
+    display: grid;
+    width: 100%;
+    height: 365px;
+    grid-template-columns: repeat(3,1fr);
+    
+    grid-gap: 20px;
+} 
+@media only screen and (min-width:0px) and (max-width:750px){
+    .hairproducts1{
+    display: inline;
+     
+   } 
+}
+ #div3>img{
+    border: 1px solid transparent;
+    width: 100%;
+    height: 240px;
+    cursor: pointer;
+}
+#div2{
+    border: 1px solid transparent;
+           width: 12%;
+           height: 35px;
+           margin-left: 80%;
+           border-radius: 50px;
+           cursor: pointer;
+           
+           
+
+}
+#div1{
+    border: 3px solid transparent;
+    height: 480px;
+}
+#div4{
+    border: 1px solid transparent;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+#div4>p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    line-height: 20px;
+    font-size: 14.4px;
+}
+#div7{
+   border: 1px solid transparent ;
+   width: 100%;
+   height:25px;
+}
+#div5{
+     border:1px solid transparent;
+     height: 30px;
+     
+}
+#price1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    text-align: center;
+    margin-top: 10px;
+}
+
+ #div6{
+     border:1px solid transparent;
+     height: 35px;
+     margin-top: 25px;
+} 
+ /* button{
+    background-color:#222222 ;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 0px;
+    width: 100%;
+    height: 100%;
+
+} 
+button:hover{
+    background-color:#464545 ;
+    cursor: pointer;
+} */
+h3,h2{
+    
+    margin-top: 2px;
+    border-radius: 50px;
+    text-align: center;
+}
+h2:hover{
+    background-color: rgba(228, 217, 217, 0.6);
+    cursor: pointer;  
+}
+.signmeupbutton{
+    background-color: black;
+    color: white;
+    height: 40px;
+}
+
+
+
+
+
+
+
+.multi{
+    width: 100%;
+    height: 5px;
+    margin-top: 70px;
+}
+.selectbox{
+    position: relative;
+}
+.selectbox select{
+    width: 100%;
+    font-weight: bold;
+   
+}
+
+.overselect{
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+}
+#checkbox{
+    display: none;
+    border: 1px solid transparent;
+    max-height: 100px;
+    overflow:scroll;
+    
+}
+#checkbox label{
+    display: block;
+   
+    
+
+}
+#checkbox label:hover{
+    background-color: none;
+}
+
+.multi1{
+    width: 100%;
+    height: 5px;
+    margin-top: 140px;
+}
+.selectbox1{
+    position: relative;
+}
+.selectbox1 select{
+    width: 100%;
+    font-weight: bold;
+   
+}
+
+.overselect1{
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+}
+#checkbox1{
+    display: none;
+    border: 1px solid transparent;
+    max-height: 100px;
+    overflow:scroll;
+    
+}
+#checkbox1 label{
+    display: block;
+   
+    
+
+}
+#checkbox1 label:hover{
+    background-color: none;
+}
+
+.multi2{
+    width: 100%;
+    height: 5px;
+    margin-top: 140px;
+}
+.selectbox2{
+    position: relative;
+}
+.selectbox2 select{
+    width: 100%;
+    font-weight: bold;
+   
+}
+
+.overselect2{
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+}
+#checkbox2{
+    display: none;
+    border: 1px solid transparent;
+    max-height: 100px;
+    overflow:scroll;
+    
+}
+#checkbox2 label{
+    display: block;
+   
+    
+
+}
+#checkbox2 label:hover{
+    background-color: none;
+}
+
+
+.multi3{
+    width: 100%;
+    height: 5px;
+    margin-top: 140px;
+}
+.selectbox3{
+    position: relative;
+}
+.selectbox3 select{
+    width: 100%;
+    font-weight: bold;
+   
+}
+
+.overselect3{
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+}
+#checkbox3{
+    display: none;
+    border: 1px solid transparent;
+    max-height: 100px;
+    overflow:scroll;
+    
+}
+#checkbox3 label{
+    display: block;
+   
+    
+
+}
+#checkbox3 label:hover{
+    background-color: none;
+}
+
+.multi4{
+    width: 100%;
+    height: 5px;
+    margin-top: 140px;
+}
+.selectbox4{
+    position: relative;
+}
+.selectbox4 select{
+    width: 100%;
+    font-weight: bold;
+   
+}
+
+.overselect4{
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+}
+#checkbox4{
+    display: none;
+    border: 1px solid transparent;
+    max-height: 100px;
+    overflow:scroll;
+    
+}
+#checkbox4 label{
+    display: block;
+   
+    
+
+}
+#checkbox4 label:hover{
+    background-color: none;
+}
+
+.multi5{
+    width: 100%;
+    height: 5px;
+    margin-top: 140px;
+}
+.selectbox5{
+    position: relative;
+}
+.selectbox5 select{
+    width: 100%;
+    font-weight: bold;
+   
+}
+
+.overselect5{
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+}
+#checkbox5{
+    display: none;
+    border: 1px solid transparent;
+    max-height: 100px;
+    overflow:scroll;
+    
+}
+#checkbox5 label{
+    display: block;
+   
+    
+
+}
+#checkbox5 label:hover{
+    background-color: none;
+}
+
+.multi6{
+    width: 100%;
+    height: 5px;
+    margin-top: 140px;
+}
+.selectbox6{
+    position: relative;
+}
+.selectbox6 select{
+    width: 100%;
+    font-weight: bold;
+   
+}
+
+.overselect6{
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+}
+#checkbox6{
+    display: none;
+    border: 1px solid transparent;
+    max-height: 100px;
+    overflow:scroll;
+    
+}
+#checkbox6 label{
+    display: block;
+   
+    
+
+}
+#checkbox6 label:hover{
+    background-color: none;
+}
+
+.multi7{
+    width: 100%;
+    height: 5px;
+    margin-top: 140px;
+}
+.selectbox7{
+    position: relative;
+}
+.selectbox7 select{
+    width: 100%;
+    font-weight: bold;
+   
+}
+
+.overselect7{
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+}
+#checkbox7{
+    display: none;
+    border: 1px solid transparent;
+    max-height: 100px;
+    overflow:scroll;
+    
+}
+#checkbox7 label{
+    display: block;
+   
+    
+
+}
+#checkbox7 label:hover{
+    background-color: none;
+}
+
+.multi8{
+    width: 100%;
+    height: 5px;
+    margin-top: 140px;
+}
+.selectbox8{
+    position: relative;
+}
+.selectbox8 select{
+    width: 100%;
+    font-weight: bold;
+   
+}
+
+.overselect8{
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+}
+#checkbox8{
+    display: none;
+    border: 1px solid transparent;
+    max-height: 100px;
+    overflow:scroll;
+    
+}
+#checkbox8 label{
+    display: block;
+   
+    
+
+}
+#checkbox8 label:hover{
+    background-color: none;
+}
+
+.multi9{
+    width: 100%;
+    height: 5px;
+    margin-top: 140px;
+}
+.selectbox9{
+    position: relative;
+}
+.selectbox9 select{
+    width: 100%;
+    font-weight: bold;
+   
+}
+
+.overselect9{
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+}
+#checkbox9{
+    display: none;
+    border: 1px solid transparent;
+    max-height: 100px;
+    overflow:scroll;
+    
+}
+#checkbox9 label{
+    display: block;
+   
+    
+
+}
+#checkbox9 label:hover{
+    background-color: none;
+}
+
+.multi10{
+    width: 100%;
+    height: 5px;
+    margin-top: 140px;
+}
+.selectbox10{
+    position: relative;
+}
+.selectbox10 select{
+    width: 100%;
+    font-weight: bold;
+   
+}
+
+.overselect10{
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+}
+#checkbox10{
+    display: none;
+    border: 1px solid transparent;
+    max-height: 100px;
+    overflow:scroll;
+    
+}
+#checkbox10 label{
+    display: block;
+   
+    
+
+}
+#checkbox10 label:hover{
+    background-color: none;
+}
+
+.multi11{
+    width: 100%;
+    height: 5px;
+    margin-top: 140px;
+}
+.selectbox11{
+    position: relative;
+}
+.selectbox11 select{
+    width: 100%;
+    font-weight: bold;
+   
+}
+
+.overselect11{
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+}
+#checkbox11{
+    display: none;
+    border: 1px solid transparent;
+    max-height: 100px;
+    overflow:scroll;
+    
+}
+#checkbox11 label{
+    display: block;
+   
+    
+
+}
+#checkbox11 label:hover{
+    background-color: none;
+}
+
+
+/* header */
+.name{
+    font-size: smaller;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#logoutbut{
+    width: 50%;
+    height: 95%;
+    margin-left: 10px;
+    color: white;
+    background-color: black;
+    font-weight: 400;
+    margin-left: 10px;
+    font-size: small;
+}
+
+.main{
+    width: auto;
+}
+#navbar{
+    height: 20%;
+    width: 100%;
+}
+#top{
+    display: flex;
+    height: 65%;
+    width: 100%;
+}
+#logo{
+    display: flex;
+    height: 100%;
+    width: 30%;    
+    font-family: "lato regular",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+#logo h1{
+    padding-top: 30px;
+}
+#logo img{
+    height: 70px;
+    margin-top: 23px;
+    margin-left: 10px;
+}
+#logo:hover{
+    cursor: pointer;
+}
+#search{
+    height: 100%;
+    width: 40%;    
+    text-align: center;
+}
+
+.acc{
+    list-style-type: none;
+    margin-top: -28px;
+    font-size: 18px;
+    margin-left: -5px;
+}
+#accimag img{
+    height: 40px;
+    margin-top: -12px;
+}
+.accountdetails{
+    position: absolute;
+    background-color: black;
+    height: 100px;
+    width: 200px;
+    background-color: lightgray;
+    list-style-type: none;
+    display: none;
+    justify-content: center;
+}
+.accountdetails li:nth-child(1){
+    background-color: black;
+}
+.accountdetails li:hover{
+    cursor: pointer;
+    background-color: rgb(97, 91, 91);
+}
+.acc li:nth-child(1):hover .accountdetails{
+    display: block;
+}
+
+.accountdetails li{
+    text-align: center;
+    padding-top: 15px;
+    margin-left: -20px;
+    border: black solid 2px;
+    height: 20px;
+    width: 100%;
+}
+
+ a{
+    text-decoration: none;
+    color: black;
+}
+#cart{
+    height: 100%;
+    width: 15%;
+    padding-top: 49px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+#brandIcon{
+    padding:15px;
+}
+#searchbar{
+    height: 40%;
+    width: 100%; 
+    margin-top: 30px;   
+}
+#dropdown{
+    display:flex;
+    text-align: center;
+    margin-left: -35px;
+}
+#dropdown a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+#dropdown>li{
+    list-style-type:none;
+    padding-top:10px;
+    height: 28px;
+    width: 100%;
+    text-decoration: none;
+    color: rgb(70, 68, 68);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+li:hover{
+    background-color: rgb(233, 233, 233);    
+    cursor:pointer;
+}
+#charfilter{
+    display: flex;
+}
+#charfilter>a{
+    padding-top: 15px;
+    height: 30px;
+    width: 100%;
+    text-decoration: none;
+    color: rgb(70, 68, 68);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.brands {
+    position: absolute;
+    width: 90%;
+    height: 200px;
+    padding-top: 20px;
+    background-color: white;
+    margin-top: 13px;
+    margin-left: -25px;
+    font-size:large;
+    font-weight: bolder;
+    list-style-type: none;
+    display: none;
+}
+.brands li{
+    padding-top: 10px;
+    border-top: gray solid 1px;
+    border-bottom: gray solid 1px;
+}
+#dropdown li:nth-child(1):hover .brands{
+    display: inline-flex;
+}
+.brands li{
+    width: 40px;
+    height: 30px;
+    background-color: white;
+}
+.brands >li:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+
+
+
+
+
+
+#carosel{
+    height: 80%;
+    width: 100%;
+}
+#offerbar{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    border-top:gray solid 1px;
+    background-color: whitesmoke;
+}
+#offerbar>div{
+    display: flex;
+    cursor: pointer;
+    font-family: "lato regular",Helvetica,Arial,sans-serif;
+    padding-top: 5px;
+}
+#offerbar>div>img{
+    height: 30px;
+    margin-top: 10px;
+}
+#shipping:hover{
+    color: lightslategrey;
+}
+#refferal:hover{
+    color: lightslategrey;
+}
+#redeem:hover{
+    color: lightslategrey;
+}
+#pay:hover{
+    color: lightslategrey;
+}
+#shipping{
+    height: 58%;
+    width: 25%;
+}
+#refferal{
+    margin-left: 20px;
+    height: 58%;
+    width: 40%;
+}
+#redeem{
+    margin-left: 20px;
+    height: 58%;
+    width: 30%;
+}
+#pay{
+    height: 58%;
+    width: 30%;
+}
+#cuoponbar{
+    height: 7%;
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 5px;
+    font-family: "lato regular",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428;
+    cursor:pointer;
+    font-weight: 700;
+}
+#cuoponbar:hover{
+    background-color:rgb(230, 230, 230);
+}
+/* #slideimg{
+    height:81%;
+    width: 100%;    
+}
+.images{
+    display: flex;
+    overflow: hidden;
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+.imgradio{
+    margin-left: 50%;
+}
+
+.imgradio p{
+    margin-left: -17%;
+    font-weight: bolder;
+    margin-top: 1px;
+    font-size: xx-large;
+} */
+
+/* changes */
+p{
+    padding-top: 15px;
+}
+
+/* footer */
+#container{
+    width: 60%;
+    margin: auto;
+}
+p{
+    font-size:small;
+    padding-left: 20px;
+    color: gray;
+}
+.font{
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.footer1{
+    height: 100px;
+    display: flex;
+    cursor: pointer;
+}
+.footer2{
+    width: 700px;
+    cursor: pointer;
+    
+}
+.footer3{
+    margin-left: 18px;
+    width: 700px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.mainfooter4{
+    height: 250px;
+    margin-top: 10px;
+    display: flex;
+    text-align: left;
+    font-size: small;
+    font-family: 'Nanum Myeongjo', serif;
+    line-height: 30px;
+    color: gray;
+    cursor: pointer;
+}
+.footer5{
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 40px;
+    text-align: left;
+    font-size: small;
+    font-family: 'Nanum Myeongjo', serif;
+    color: gray;
+    cursor: pointer;
+
+}
+.footer6{
+    width: 300px;
+    font-size: small;
+    margin-right: 40px;
+    font-family: 'Nanum Myeongjo', serif;
+    color: gray;
+    cursor: pointer;
+    
+ }
+ .footer7{
+     width: 300px;
+     font-size: small;
+     margin-right: 40px;
+     font-family: 'Nanum Myeongjo', serif;
+     color: gray;
+     cursor: pointer;
+    
+ }
+ .footer8{
+     width: 300px;
+     font-size: small;
+     margin-right: 40px;
+     font-family: 'Nanum Myeongjo', serif;
+     color: gray;
+     cursor: pointer;
+    
+ }
+ .mainfooter9{
+     height: 80px;
+     font-size: small;
+     margin-top: 20px;
+     width: 60%;
+     margin: auto;
+     cursor: pointer;
+ }
+ .img{
+     width: 100%;
+     height: 150px;
+     cursor: pointer;
+ }
+ .table1{
+  border: tomato 1px;
+ }
+ #addtocartbut{
+     margin-left: 20px;
+     padding: 10px 15px;
+     font-size: small;
+     background-color: black;
+     color: white;
+ }
+ .grey:hover{
+     background-color: gray;
+ }
+ .grey{
+     border-radius: 30px;
+     width: 20px;
+ }

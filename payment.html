@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="payment.css">
+
+     <!-- Poly Font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poly&display=swap" rel="stylesheet">
+     <!-- Lato Font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>Payment Page</title>
+</head>
+<body>
+    <!-- content -->
+    <div id="container">
+        <div id="logo">
+            <img class="img" src="https://s1.thcdn.com/enterprise/assets/dermstore-global-a3ce7f42-4a2c-4cc5-ad05-ba594900fa02-logo-default.svg" />
+        </div>
+        <div id="box">
+            <div class=box-left>
+                <hr class="black-line">
+            <div id="shipping">
+            <h4 class="a">1. Shipping Adddress</h4>
+            <label class="country">Country/Region</label>
+            <br>
+            <input class="country-box" value="United States" type="text">
+            <br>
+            <label class="fullname">*Full Name</label>
+            <br>
+            <input class="fullname-box" value="name" type="text">
+            <br>
+            <label class="address">Address</label>
+            <br>
+            <input class="address-box" value="Start typing your address..." type="text">
+            <br>
+            <label class="phone">Contact Number</label>
+            <br>
+            <input class="phone-box" value="" type="text">
+            </div>
+            </div>
+            <div class="box-right">
+                <div id="total">
+                    <p>Cart Subtotal:</p>
+                    <h4 class="subtotal">$</h4>
+                    <h4 id="subtotal">0</h4>
+                    <h4 id="h43">.00</h4>
+                </div >
+            </div>
+        </div>
+
+        
+        <div id="box-1">
+            <div class=box-left>
+                <div id="shipping">
+                    <h4 class="b">2. Select Delivery Option</h4>
+                    <div id="blue-box">
+                        <p class="blue-font">Please enter your address so we can calculate your delivery options.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box-right0"></div>
+        </div>
+
+
+        <div id="box-2">
+            <div class=box-left>
+                <div id="shipping">
+                    <h4>3. Select Payment Method</h4>
+                    <div id="mainbox">
+                        <div id="images">
+                            <img class="img1" src="https://1000logos.net/wp-content/uploads/2021/11/VISA-logo.png">
+                            <img class="img2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/2560px-MasterCard_Logo.svg.png">
+                            <img class="img3" src="https://w7.pngwing.com/pngs/123/955/png-transparent-india-rupay-debit-card-bank-credit-card-india-text-trademark-logo-thumbnail.png">
+                            <img class="img4" src="https://w7.pngwing.com/pngs/823/345/png-transparent-commerce-company-vip-membership-card-logo-computer-wallpaper-desktop-wallpaper-thumbnail.png">
+                        </div>
+                        
+                        <label class="name">Name on Card</label>
+                        <br>
+                        <input class="namebox" type="text">
+                        <br>
+                        <label class="cardname">Card Number</label>
+                        <br>
+                        <input class="cardnamebox" type="number" value="">
+                        <p class="msg"></p>
+                
+                        <div id="date">
+                            <div class="exp">
+                                 <h4>Expiry Date</h4>
+                                 <input type="date" class="date" name="trip-start" value="2021-12-17" min="1900-01-01" max="2029-01-01">
+                            </div>
+                            <div class="cvv">
+                                 <h4>Security Code</h4>
+                                 <input class="Security" type="number" value="">
+                                 <p class="msg"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box-right1"></div>
+        </div>
+
+
+
+        <div id="box-1">
+            <div class=box-left>
+                <div id="shipping">
+                    <h4>use a different payment method</h4>
+                    <div id="image-box">
+                        <img src="https://www.thehindubusinessline.com/money-and-banking/nz7hvk/article24801784.ece/alternates/FREE_615/google-paya" alt="">
+                        <img src="https://couponswala.com/blog/wp-content/uploads/2020/12/Paytm.png" alt="">
+                        <img src="https://nuvei.com/wp-content/uploads/2021/06/phonepe.png" alt="">
+                        <img src="https://bsmedia.business-standard.com/media-handler.php?mediaPath=http://bsmedia.business-standard.com/_media/bs/img/article/2017-01/19/full/1484834719-7367.jpg&width=1200" alt="">
+
+                    </div>
+                </div>
+            </div>
+            <div class="box-right2"></div>
+        </div>
+
+
+
+
+        <div id="box-1">
+            <div class=box-left>
+                <div id="shipping">
+                   <button id="end-but">SUBMIT MY ORDER</button>
+                </div>
+            </div>
+            <div class="box-right3"></div>
+        </div>
+
+    </div>
+
+
+
+
+    
+</body>
+</html>
+
+<script src="payment.js"></script>

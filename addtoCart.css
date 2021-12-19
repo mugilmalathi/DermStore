@@ -1,0 +1,491 @@
+body{
+    margin-top: 90px;
+    width: 80%;
+    margin: auto;
+}
+.container{
+    height: 800px;
+}
+#div1{
+        width: 70px;
+        height: 80px;
+}
+th,td{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid #ddd;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+#div2{
+        width: 500px;
+        text-align: center;
+        
+}
+h4{
+    text-align: center;
+}
+#cancelBTN{
+    background-color: #f2f2f2;
+    border: 0px;
+    margin-left:19px ;
+    padding: 7px;
+}
+button:hover{
+    cursor: pointer;;
+}
+#th1{
+    width: 400px;
+}
+#total{
+    border: 1px solid transparent;
+    display: flex;
+}
+#h43, #subtotal{
+    margin-left: 2px;
+    margin-top: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+     font-size: 20px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.subtotal{
+    margin-left: 460px;
+    margin-top: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#btn1{
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 0px;
+}
+#btn1:hover{
+        background-color:rgb(242,242,242) ;
+}
+#btn2{
+    width: 250px;
+    height: 40px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 0px;
+    color:white;
+    margin-left: 200px;
+}
+#btn4:hover,#btn2:hover{
+    background-color: rgb(43, 43, 43);
+}
+#code{
+    width: 350px;
+    height: 40px;
+    margin-left: 100px;
+}
+#btn4{
+    width: 80px;
+    height: 38px;
+    margin-top: 3px;
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+    border:0px;
+}
+h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+
+/* header */
+.name{
+    font-size: smaller;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#logoutbut{
+    width: 50%;
+    height: 95%;
+    margin-left: 10px;
+    color: white;
+    background-color: black;
+    font-weight: 400;
+    margin-left: 10px;
+    font-size: small;
+}
+
+.main{
+    width: 100%;
+}
+#navbar{
+    height: 20%;
+    width: 100%;
+}
+#top{
+    display: flex;
+    height: 65%;
+    width: 100%;
+}
+#logo{
+    display: flex;
+    height: 100%;
+    width: 30%;    
+    font-family: "lato regular",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+#logo h1{
+    padding-top: 30px;
+}
+#logo img{
+    height: 70px;
+    margin-top: 23px;
+    margin-left: 10px;
+}
+#logo:hover{
+    cursor: pointer;
+}
+#search{
+    height: 100%;
+    width: 40%;    
+    text-align: center;
+}
+
+.acc{
+    list-style-type: none;
+    margin-top: -28px;
+    font-size: 18px;
+    margin-left: -5px;
+}
+#accimag img{
+    height: 40px;
+    margin-top: -12px;
+}
+.accountdetails{
+    position: absolute;
+    background-color: black;
+    height: 100px;
+    width: 200px;
+    background-color: lightgray;
+    list-style-type: none;
+    display: none;
+    justify-content: center;
+}
+.accountdetails li:nth-child(1){
+    background-color: black;
+}
+.accountdetails li:hover{
+    cursor: pointer;
+    background-color: rgb(97, 91, 91);
+}
+.acc li:nth-child(1):hover .accountdetails{
+    display: block;
+}
+
+.accountdetails li{
+    text-align: center;
+    padding-top: 15px;
+    margin-left: -20px;
+    border: black solid 2px;
+    height: 20px;
+    width: 100%;
+}
+
+ a{
+    text-decoration: none;
+    color: black;
+}
+#cart{
+    height: 100%;
+    width: 15%;
+    padding-top: 49px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+#brandIcon{
+    padding:15px;
+}
+#searchbar{
+    height: 40%;
+    width: 100%; 
+    margin-top: 30px;   
+}
+#dropdown{
+    display:flex;
+    text-align: center;
+    margin-left: -35px;
+}
+#dropdown a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+#dropdown>li{
+    list-style-type:none;
+    padding-top:10px;
+    height: 28px;
+    width: 100%;
+    text-decoration: none;
+    color: rgb(70, 68, 68);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+li:hover{
+    background-color: rgb(233, 233, 233);    
+    cursor:pointer;
+}
+#charfilter{
+    display: flex;
+}
+#charfilter>a{
+    padding-top: 15px;
+    height: 30px;
+    width: 100%;
+    text-decoration: none;
+    color: rgb(70, 68, 68);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.brands {
+    position: absolute;
+    width: 90%;
+    height: 200px;
+    padding-top: 20px;
+    background-color: white;
+    margin-top: 13px;
+    margin-left: -25px;
+    font-size:large;
+    font-weight: bolder;
+    list-style-type: none;
+    display: none;
+}
+.brands li{
+    padding-top: 10px;
+    border-top: gray solid 1px;
+    border-bottom: gray solid 1px;
+}
+#dropdown li:nth-child(1):hover .brands{
+    display: inline-flex;
+}
+.brands li{
+    width: 40px;
+    height: 30px;
+    background-color: white;
+}
+.brands >li:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+
+
+
+
+
+
+#carosel{
+    height: 80%;
+    width: 100%;
+}
+#offerbar{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    border-top:gray solid 1px;
+    background-color: whitesmoke;
+}
+#offerbar>div{
+    display: flex;
+    cursor: pointer;
+    font-family: "lato regular",Helvetica,Arial,sans-serif;
+    padding-top: 5px;
+}
+#offerbar>div>img{
+    height: 30px;
+    margin-top: 10px;
+}
+#shipping:hover{
+    color: lightslategrey;
+}
+#refferal:hover{
+    color: lightslategrey;
+}
+#redeem:hover{
+    color: lightslategrey;
+}
+#pay:hover{
+    color: lightslategrey;
+}
+#shipping{
+    height: 58%;
+    width: 25%;
+}
+#refferal{
+    margin-left: 20px;
+    height: 58%;
+    width: 40%;
+}
+#redeem{
+    margin-left: 20px;
+    height: 58%;
+    width: 30%;
+}
+#pay{
+    height: 58%;
+    width: 30%;
+}
+#cuoponbar{
+    height: 7%;
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 5px;
+    font-family: "lato regular",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428;
+    cursor:pointer;
+    font-weight: 700;
+}
+#cuoponbar:hover{
+    background-color:rgb(230, 230, 230);
+}
+/* #slideimg{
+    height:81%;
+    width: 100%;    
+}
+.images{
+    display: flex;
+    overflow: hidden;
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+.imgradio{
+    margin-left: 50%;
+}
+
+.imgradio p{
+    margin-left: -17%;
+    font-weight: bolder;
+    margin-top: 1px;
+    font-size: xx-large;
+} */
+
+/* changes */
+p{
+    padding-top: 15px;
+}
+
+/* footer */
+#container{
+    width: 100%;
+    margin: auto;
+}
+p{
+    font-size:small;
+    padding-left: 20px;
+    color: gray;
+}
+.font{
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.footer1{
+    height: 100px;
+    display: flex;
+    cursor: pointer;
+}
+.footer2{
+    width: 700px;
+    cursor: pointer;
+    
+}
+.footer3{
+    margin-left: 18px;
+    width: 550px;
+    height: 30px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.mainfooter4{
+    height: 250px;
+    margin-top: 10px;
+    display: flex;
+    text-align: left;
+    font-size: small;
+    font-family: 'Nanum Myeongjo', serif;
+    line-height: 30px;
+    color: gray;
+    cursor: pointer;
+}
+.footer5{
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 40px;
+    text-align: left;
+    font-size: small;
+    font-family: 'Nanum Myeongjo', serif;
+    color: gray;
+    cursor: pointer;
+
+}
+.footer6{
+    width: 300px;
+    font-size: small;
+    margin-right: 40px;
+    font-family: 'Nanum Myeongjo', serif;
+    color: gray;
+    cursor: pointer;
+    
+ }
+ .footer7{
+     width: 300px;
+     font-size: small;
+     margin-right: 40px;
+     font-family: 'Nanum Myeongjo', serif;
+     color: gray;
+     cursor: pointer;
+    
+ }
+ .footer8{
+     width: 300px;
+     font-size: small;
+     margin-right: 40px;
+     font-family: 'Nanum Myeongjo', serif;
+     color: gray;
+     cursor: pointer;
+    
+ }
+ .mainfooter9{
+     height: 80px;
+     font-size: small;
+     margin-top: 20px;
+     width: 60%;
+     margin: auto;
+     cursor: pointer;
+ }
+ .img{
+     width: 100%;
+     height: 150px;
+     cursor: pointer;
+ }
+ .table1{
+  border: tomato 1px;
+ }
+ #addtocartbut{
+     margin-left: 20px;
+     padding: 10px 15px;
+     font-size: small;
+     background-color: black;
+     color: white;
+ }
+ .grey:hover{
+     background-color: gray;
+ }
+ .grey{
+     border-radius: 30px;
+     width: 20px;
+ }

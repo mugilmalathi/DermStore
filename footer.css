@@ -1,0 +1,108 @@
+#container{
+    width: 60%;
+    margin: auto;
+}
+p{
+    font-size:small;
+    padding-left: 20px;
+    color: gray;
+}
+.font{
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.footer1{
+    height: 100px;
+    display: flex;
+    cursor: pointer;
+}
+.footer2{
+    width: 700px;
+    cursor: pointer;
+    
+}
+.footer3{
+    margin-left: 18px;
+    width: 700px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.mainfooter4{
+    height: 250px;
+    margin-top: 10px;
+    display: flex;
+    text-align: left;
+    font-size: small;
+    font-family: 'Nanum Myeongjo', serif;
+    line-height: 30px;
+    color: gray;
+    cursor: pointer;
+}
+.footer5{
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 40px;
+    text-align: left;
+    font-size: small;
+    font-family: 'Nanum Myeongjo', serif;
+    color: gray;
+    cursor: pointer;
+
+}
+.footer6{
+    width: 300px;
+    font-size: small;
+    margin-right: 40px;
+    font-family: 'Nanum Myeongjo', serif;
+    color: gray;
+    cursor: pointer;
+    
+ }
+ .footer7{
+     width: 300px;
+     font-size: small;
+     margin-right: 40px;
+     font-family: 'Nanum Myeongjo', serif;
+     color: gray;
+     cursor: pointer;
+    
+ }
+ .footer8{
+     width: 300px;
+     font-size: small;
+     margin-right: 40px;
+     font-family: 'Nanum Myeongjo', serif;
+     color: gray;
+     cursor: pointer;
+    
+ }
+ .mainfooter9{
+     height: 80px;
+     font-size: small;
+     margin-top: 20px;
+     width: 60%;
+     margin: auto;
+     cursor: pointer;
+ }
+ .img{
+     width: 100%;
+     cursor: pointer;
+ }
+ .table1{
+  border: tomato 1px;
+ }
+ .button{
+     margin-left: 20px;
+     padding: 10px 15px;
+     font-size: small;
+     background-color: black;
+     color: white;
+ }
+ .grey:hover{
+     background-color: gray;
+ }
+ .grey{
+     border-radius: 30px;
+     width: 20px;
+ }

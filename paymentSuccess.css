@@ -1,0 +1,26 @@
+#logo{
+    width: 100%;
+    height: 7%;
+    background-color: white;
+    scroll-behavior: auto;
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+}
+.img{
+    margin-left: 40px;
+    width: 20%;
+    height: 70%;
+    margin-top: 8px;
+    cursor: pointer;
+}
+#button{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 30%;
+    font-size: medium;
+    margin-left: 550px;
+    margin-top: 20px;
+}

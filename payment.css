@@ -1,0 +1,249 @@
+#container{
+    width: 100%;
+    height: 1400px;
+    background-color: #f2f2f2;
+}
+#logo{
+    width: 100%;
+    height: 5%;
+    background-color: white;
+    margin: auto;
+}
+.img{
+    margin-left: 150px;
+    width: 20%;
+    height: 70%;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.black-line{
+    margin: 10px solid black;
+    width: 60%;
+    margin-top: 20px;
+}
+#shipping{
+    width: 60%;
+    margin: auto;
+    padding-left: 20px;
+    font-family: 'Poly', serif;
+}
+#box{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    margin: auto;
+}
+.box-left{
+    width: 70%;
+}
+
+.country{
+    padding-left: 10px;
+}
+.country-box{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 95%;
+    height: 25px;
+    margin-bottom: 30px;
+}
+.fullname{
+    padding-left: 10px;
+}
+.fullname-box{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 95%;
+    height: 25px;
+    margin-bottom: 30px;
+}
+.address{
+    padding-left: 10px;
+}
+.address-box{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 95%;
+    height: 25px;
+    margin-bottom: 30px;
+}
+.phone{
+    padding-left: 10px;
+}
+.phone-box{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 95%;
+    height: 25px;
+    margin-bottom: 30px;
+}
+#box-1{
+    width: 80%;
+    height: 140px;
+    display: flex;
+    margin: auto;
+}
+#blue-box{
+    width: 100%;
+    height: 30px;
+    margin:auto;
+    margin-top: 20px;
+    background-color: #e6f0f8;
+}
+.blue-font{
+    font-size: smaller;
+    padding-top: 5px;
+    color: #0065ad;
+}
+#box-2{
+    width: 80%;
+    height: 550px;
+    display: flex;
+    margin: auto;
+}
+
+
+/* Payment */
+#mainbox{
+    width: 100%;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+#images{
+    padding-top: 20px;
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px;
+    grid-gap: 15px;
+    grid-template-areas:
+    "img1 img2 img3 img4";
+}
+.img1{
+    width: 100%;
+    height: 30px;
+    grid-template-areas: 'img1';
+    border: 1px solid gainsboro;
+}
+.img2{
+    width: 100%;
+    height: 30px;
+    grid-template-areas: 'img2';
+    border: 1px solid gainsboro;
+}
+.img3{
+    width: 100%;
+    height: 30px;
+    grid-template-areas: 'img3';
+    border: 1px solid gainsboro;
+}
+.img4{
+    width: 100%;
+    height: 30px;
+    grid-template-areas: 'img4';
+    border: 1px solid gainsboro;
+}
+h4{
+    color: gray;
+    padding-left: 20px;
+}
+.a, .b{
+    color: gray;
+}
+
+.name{
+    padding-left: 20px;
+    font-weight: 700;
+    color: gray;
+}
+.cardname{
+    padding-left: 20px;
+    font-weight: 700;
+    color: gray;
+}
+.namebox{
+    margin-left: 20px;
+    width: 85%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.cardnamebox{
+    margin-left: 20px;
+    width: 85%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.Security{
+    margin-left: 20px;
+    width: 84%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.date{
+    margin-left: 20px;
+    width: 84%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.pay{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 88%;
+    height: 35px;
+    color: white;
+    font-weight: 700;
+    background-color:rgb(44, 155, 155)
+}
+hr{
+    margin-bottom: 30px;
+}
+#image-box > img{
+    width: 10%;
+    height: 40px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+#end-but{
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+}
+
+
+.box-right{
+    width: 30%;
+}
+
+#image-right{
+    width: 30%;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.subtotal{
+    margin-left: 50px;
+    margin-top: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#h43, #subtotal{
+    margin-left: 2px;
+    margin-top: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#total{
+    border: 1px solid transparent;
+    display: flex;
+}

@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="haircare.css">
+</head>
+<body>
+    <!-- header -->
+    <div class="main">
+        <div id="navbar">
+            <div id="top">
+                <div id="logo">
+                    <img src="logo.jpg" alt="">
+                    <h1 id="brandIcon" ><b>DERMSTORE</b></h1>
+                </div>
+                <div id="search">
+                    <input type="search" name="search" id="searchbar" placeholder="Search for a product or brand...">
+                </div>
+               
+                <div id="account"><h4 class="name">Dear Customer</h4></div>
+
+                <div id="cart">
+                    <a href="#">Cart</a>
+                    <button id="logoutbut">LOG OUT</button>
+                </div>
+            </div>
+            <ul id="dropdown">
+                <li><a href="#">Brands</a>
+                <ul class="brands">
+                    <li><a href="#">0_9</a></li>
+                    <li><a href="#">A</a></li>
+                    <li><a href="#">B</a></li>
+                    <li><a href="#">C</a></li>
+                    <li><a href="#">D</a></li>
+                    <li><a href="#">E</a></li>
+                    <li><a href="#">F</a></li>
+                    <li><a href="#">G</a></li>
+                    <li><a href="#">H</a></li>
+                    <li><a href="#">I</a></li>
+                    <li><a href="#">J</a></li>
+                    <li><a href="#">K</a></li>
+                    <li><a href="#">L</a></li>
+                    <li><a href="#">M</a></li>
+                    <li><a href="#">N</a></li>
+                    <li><a href="#">O</a></li>
+                    <li><a href="#">P</a></li>
+                    <li><a href="#">Q</a></li>
+                    <li><a href="#">R</a></li>
+                    <li><a href="#">S</a></li>
+                    <li><a href="#">T</a></li>
+                    <li><a href="#">U</a></li>
+                    <li><a href="#">V</a></li>
+                    <li><a href="#">W</a></li>
+                    <li><a href="#">X</a></li>
+                    <li><a href="#">Y</a></li>
+                    <li><a href="#">Z</a></li>
+
+                </ul>
+            </li>
+                <li><a href="#">Holiday Shop</a></li>
+                <li><a href="#">Browse By</a></li>
+                <li><a href="#">Skin Care</a></li>
+                <li><a href="#">Makeup</a></li>
+                <li><a href="haircare.html">Hair Care</a></li>
+                <li><a href="#">Bath & body</a></li>
+                <li><a href="">Men</a></li>
+                <li><a href="#">Gifts & Sets</a></li>
+                <li><a href="#">BeautyFIX</a></li>
+                <li><a href="#">Sale</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Skin 101</a></li>
+            </ul>
+        </div>
+        <div id="carosel">
+            <div id="offerbar">
+                <div id="shipping">
+                    <img src="shipping.jpg" alt="">
+                    <p>FREE US shipping over $50</p>
+                </div>
+                <div id="refferal">
+                    <img src="newcustomer.jpg" alt="">
+                    <p>New customers save 15% with code WELCOME15</p>
+                </div>
+                <div id="redeem">
+                    <img src="redeem.jpg" alt="">
+                    <p>Redeem Dermstore Rewards</p>
+                </div>
+                <div id="pay">
+                    <img src="pay.jpg" alt="">
+                    <p>Shop now, pay later with Arterpay</p>
+                </div>
+            </div>
+            <!-- <div id="cuoponbar">
+                <p>Use code EXPRESS for free 2-day shipping when you spend over $125 & guarantee delivery before Xmas. SHOP GIFTS</p>
+
+            </div> -->
+    </div>
+
+</div>
+
+
+<!-- content -->
+
+        <div id="haircare">
+            <div class="filterproducts">
+              
+                <form>
+                    <div class="multi">
+                        <div class="selectbox" onclick="showcheck()">
+                            <select >
+                                <option>Brand</option>
+                                
+                            </select >
+                            <hr>
+                            <div class="overselect">
+                 
+                            </div>
+                        </div>
+                        <div id="checkbox">
+                            <label for="one" value="sdsg"><input type="checkbox" id="one">100% Pure (7)</label>
+                            <label for="tow"><input type="checkbox" id="two">Alterna</label>
+                            <label for="three"><input type="checkbox" id="three">AMELIORATE (4)</label>
+                            <label for="one"><input type="checkbox" id="one">Aquis (13)</label>
+                            <label for="tow"><input type="checkbox" id="two">Baxter of California (6)</label>
+                            <label for="three"><input type="checkbox" id="three">Briogeo (40)</label>
+                            <label for="one"><input type="checkbox" id="one">Briogeo Hair (7)</label>
+                            <label for="tow"><input type="checkbox" id="two">By Terry (1)</label>
+                            <label for="three"><input type="checkbox" id="three">Caudalie (1)</label>
+                            <label for="one"><input type="checkbox" id="one">Charlotte Mensah (4)</label>
+                            <label for="tow"><input type="checkbox" id="two">Christophe Robin (33)</label>
+                            <label for="three"><input type="checkbox" id="three">Color WOW (22)</label>
+                            <label for="one"><input type="checkbox" id="one">COOLA (1)</label>
+                            <label for="tow"><input type="checkbox" id="two">DCL Dermatologic Cosmetic Laboratories (5)</label>
+                            <label for="three"><input type="checkbox" id="three">Dermstore Collection (1)</label>
+                            <label for="one" value="sdsg"><input type="checkbox" id="one">DevaCurl (1)</label>
+                            <label for="tow"><input type="checkbox" id="two">DHC (2)</label>
+                            <label for="three"><input type="checkbox" id="three">DHS (9))</label>
+                            <label for="one"><input type="checkbox" id="one">dpHUE (28)</label>
+                            <label for="tow"><input type="checkbox" id="two">dpHUE (28)</label>
+                            <label for="three"><input type="checkbox" id="three">Elemis (1))</label>
+                            <label for="one"><input type="checkbox" id="one">ESPA (1)</label>
+                            <label for="tow"><input type="checkbox" id="two">évolis Professional (12)</label>
+                            <label for="three"><input type="checkbox" id="three">EVOLVh (16)</label>
+                            <label for="one"><input type="checkbox" id="one">First Aid Beauty (1)</label>
+                            <label for="tow"><input type="checkbox" id="two">GLOSS MODERNE (3</label>
+                            <label for="three"><input type="checkbox" id="three">Grow Gorgeous (26)</label>
+                            <label for="one"><input type="checkbox" id="one">HairMax (2)</label>
+                            <label for="tow"><input type="checkbox" id="two">Harry Josh Pro Tools (18)</label>
+                            <label for="three"><input type="checkbox" id="three">Herbivore Botanicals (2)</label>
+                            <label for="one" value="sdsg"><input type="checkbox" id="one">Hot Tools (9)</label>
+                            <label for="tow"><input type="checkbox" id="two">Jack Black (3)</label>
+                            <label for="three"><input type="checkbox" id="three">kai (2)</label>
+                            <label for="one"><input type="checkbox" id="one">KLORANE (35)</label>
+                            <label for="tow"><input type="checkbox" id="two">Living Proof (71))</label>
+                            <label for="three"><input type="checkbox" id="three">Miriam Quevedo (23)</label>
+                            <label for="one"><input type="checkbox" id="one">neuLash (1)</label>
+                            <label for="tow"><input type="checkbox" id="two">Olaplex (10)</label>
+                            <label for="three"><input type="checkbox" id="three">Oribe (103)</label>
+                            <label for="one"><input type="checkbox" id="one">Peter Thomas Roth (2)</label>
+                            <label for="tow"><input type="checkbox" id="two">Philip B (38)</label>
+                            <label for="three"><input type="checkbox" id="three">R+Co Bleu (10))</label>
+                            <label for="one"><input type="checkbox" id="one">SHHHOWERCAP (5)</label>
+                            <label for="tow"><input type="checkbox" id="two">DCL Dermatologic Cosmetic Laboratories (5)</label>
+                            <label for="three"><input type="checkbox" id="three">Dermstore Collection (1)</label>
+                            <label for="one" value="sdsg"><input type="checkbox" id="one">DevaCurl (1)</label>
+                            <label for="tow"><input type="checkbox" id="two">DHC (2)</label>
+                            <label for="three"><input type="checkbox" id="three">DHS (9))</label>
+                            <label for="one"><input type="checkbox" id="one">dpHUE (28)</label>
+                            <label for="tow"><input type="checkbox" id="two">dpHUE (28)</label>
+                            <label for="three"><input type="checkbox" id="three">Elemis (1))</label>
+                            <label for="one"><input type="checkbox" id="one">ESPA (1)</label>
+                            <label for="tow"><input type="checkbox" id="two">évolis Professional (12)</label>
+                            <label for="three"><input type="checkbox" id="three">EVOLVh (16)</label>
+                            <label for="one"><input type="checkbox" id="one">First Aid Beauty (1)</label>
+                            <label for="tow"><input type="checkbox" id="two">UNITE Hair (36)</label>
+                            <label for="three"><input type="checkbox" id="three">VIRTUE (46)</label>
+                            <label for="one"><input type="checkbox" id="one">VMV Hypoallergenics</label>
+                            <label for="tow"><input type="checkbox" id="two">Wander Beauty (2)</label>
+                            <label for="three"><input type="checkbox" id="three">Weleda (1)</label>
+                        </div>
+                    </div>
+                 </form> 
+                 <form>
+                     <div class="multi1">
+                         <div class="selectbox1" onclick="showcheck1()">
+                             <select  id="select1">
+                                 <option>Haircare Category</option>
+                                 
+                             </select >
+                             <hr>
+                             <div class="overselect1">
+                  
+                             </div>
+                         </div>
+                         <div id="checkbox1">
+                             <label for="one" value="sdsg"><input type="checkbox" id="one">Hair Preparation (65)</label>
+                             <label for="tow"><input type="checkbox" id="two">Electrical Hair Tools (9)</label>
+                             <label for="three"><input type="checkbox" id="three">Hair Brushes & Combs (9)</label>
+                             <label for="one"><input type="checkbox" id="one">Hair Brushes & Combs</label>
+                            
+                         </div>
+                     </div>
+                  </form> 
+                 
+                  <form>
+                     <div class="multi2">
+                         <div class="selectbox2" onclick="showcheck2()">
+                             <select >
+                                 <option>Hair Type</option>
+                                 
+                             </select id="select2">
+                             <hr>
+                             <div class="overselect2">
+                  
+                             </div>
+                         </div>
+                         <div id="checkbox2">
+                             <label for="one" value="sdsg"><input type="checkbox" id="one">Afro-Caribbean (4)</label>
+                             <label for="tow"><input type="checkbox" id="two">Colotransparent (66)</label>
+                             <label for="three"><input type="checkbox" id="three">Curly & Wavy (62)</label>
+                             <label for="one"><input type="checkbox" id="one">Damaged (85)</label>
+                             <label for="tow"><input type="checkbox" id="two">Fine (52)</label>
+                             <label for="three"><input type="checkbox" id="three">Briogeo (40)</label>
+                             <label for="one"><input type="checkbox" id="one">Briogeo Hair (7)</label>
+                             <label for="tow"><input type="checkbox" id="two">By Terry (1)</label>
+                             <label for="three"><input type="checkbox" id="three">Caudalie (1)</label>
+                             <label for="one"><input type="checkbox" id="one">Weakened (1)</label>
+                             
+                         </div>
+                     </div>
+                  </form> 
+                 
+                  
+                  <form>
+                     <div class="multi3">
+                         <div class="selectbox3" onclick="showcheck3()">
+                             <select >
+                                 <option>Hair Preparation Products</option>
+                                 
+                             </select id="select3">
+                             <hr>
+                             <div class="overselect3">
+                  
+                             </div>
+                         </div>
+                         <div id="checkbox3">
+                             <label for="one" value="sdsg"><input type="checkbox" id="one">100% Pure (7)</label>
+                             <label for="tow"><input type="checkbox" id="two">Alterna</label>
+                             <label for="three"><input type="checkbox" id="three">AMELIORATE (4)</label>
+                             <label for="one"><input type="checkbox" id="one">Aquis (13)</label>
+                             <label for="tow"><input type="checkbox" id="two">Baxter of California (6)</label>
+                             <label for="three"><input type="checkbox" id="three">Briogeo (40)</label>
+                             <label for="one"><input type="checkbox" id="one">Briogeo Hair (7)</label>
+                             <label for="tow"><input type="checkbox" id="two">By Terry (1)</label>
+                             <label for="three"><input type="checkbox" id="three">Weakened (1)</label>
+                             
+                         </div>
+                     </div>
+                  </form> 
+                 
+                  <form>
+                     <div class="multi4">
+                         <div class="selectbox4" onclick="showcheck4()">
+                             <select >
+                                 <option>Electrical Hair Tools</option>
+                                 
+                             </select id="select4">
+                             <hr>
+                             <div class="overselect4">
+                  
+                             </div>
+                         </div>
+                         <div id="checkbox4">
+                             <label for="one" value="sdsg"><input type="checkbox" id="one">Hair & Scalp Treatments (34)</label>
+                             <label for="tow"><input type="checkbox" id="two">Conditioner (28)</label>
+                             <label for="three"><input type="checkbox" id="three">Shampoo (26)</label>
+                             <label for="one"><input type="checkbox" id="one">Leave-In Conditioner (4)</label>
+                             <label for="tow"><input type="checkbox" id="two">Hair Oil (1)</label>
+                             <label for="three"><input type="checkbox" id="three">Hair Masks (11)</label>
+                             
+                             
+                         </div>
+                     </div>
+                  </form> 
+                 
+                  
+                  <form>
+                     <div class="multi5">
+                         <div class="selectbox5" onclick="showcheck5()">
+                             <select >
+                                 <option>Hair Styling</option>
+                                 
+                             </select id="select5">
+                             <hr>
+                             <div class="overselect5">
+                  
+                             </div>
+                         </div>
+                         <div id="checkbox5">
+                             <label for="one" value="sdsg"><input type="checkbox" id="one">Hair Cream (4)</label>
+                             <label for="tow"><input type="checkbox" id="two">Hair Serum (5)</label>
+                             <label for="three"><input type="checkbox" id="three">Hair Spray (3)</label>
+                             
+                         </div>
+                     </div>
+                  </form> 
+                 
+                  
+                  <form>
+                     <div class="multi6">
+                         <div class="selectbox6" onclick="showcheck6()">
+                             <select >
+                                 <option>Hair Care Benefit</option>
+                                 
+                             </select id="select6">
+                             <hr>
+                             <div class="overselect6">
+                  
+                             </div>
+                         </div>
+                         <div id="checkbox6">
+                             <label for="one" value="sdsg"><input type="checkbox" id="one">Anti Dandruff (16)</label>
+                             <label for="tow"><input type="checkbox" id="two">Anti-Frizz (85)</label>
+                             <label for="three"><input type="checkbox" id="three">Balancing (4)</label>
+                             <label for="one"><input type="checkbox" id="one">Color Protection (63)</label>
+                             <label for="tow"><input type="checkbox" id="two">Damage Repair (94)</label>
+                             <label for="three"><input type="checkbox" id="three">Briogeo (40)</label>
+                             <label for="one"><input type="checkbox" id="one">Briogeo Hair (7)</label>
+                             <label for="tow"><input type="checkbox" id="two">By Terry (1)</label>
+                             <label for="three"><input type="checkbox" id="three">Caudalie (1)</label>
+                             <label for="one"><input type="checkbox" id="one">Charlotte Mensah (4)</label>
+                             <label for="tow"><input type="checkbox" id="two">Christophe Robin (33)</label>
+                             <label for="three"><input type="checkbox" id="three">Color WOW (22)</label>
+                             <label for="one"><input type="checkbox" id="one">COOLA (1)</label>
+                             <label for="tow"><input type="checkbox" id="two">DCL Dermatologic Cosmetic Laboratories (5)</label>
+                             <label for="three"><input type="checkbox" id="three">Dermstore Collection (1)</label>
+                             <label for="one" value="sdsg"><input type="checkbox" id="one">DevaCurl (1)</label>
+                             <label for="tow"><input type="checkbox" id="two">DHC (2)</label>
+                             
+                         </div>
+                     </div>
+                  </form> 
+                 
+                  
+                  <form>
+                     <div class="multi7">
+                         <div class="selectbox7" onclick="showcheck7()">
+                             <select >
+                                 <option>Hair Dye Color</option>
+                                 
+                             </select id="select7" >
+                             <hr>
+                             <div class="overselect7">
+                  
+                             </div>
+                         </div>
+                         <div id="checkbox7">
+                             <label for="one" value="sdsg"><input type="checkbox" id="one">Blonde (1)</label>
+                             
+                         </div>
+                     </div>
+                  </form> 
+                 
+                  
+                  <form>
+                     <div class="multi8">
+                         <div class="selectbox8" onclick="showcheck8()">
+                             <select >
+                                 <option>Preferences</option>
+                                 
+                             </select id="select8">
+                             <hr>
+                             <div class="overselect8">
+                  
+                             </div>
+                         </div>
+                         <div id="checkbox8">
+                             <label for="one" value="sdsg"><input type="checkbox" id="one">Certified Cruelty-Free (451)</label>
+                             <label for="tow"><input type="checkbox" id="two">Clean (190)</label>
+                             <label for="three"><input type="checkbox" id="three">Fragrance-Free (40))</label>
+                             <label for="one"><input type="checkbox" id="one">Gluten-Free (425)</label>
+                             <label for="tow"><input type="checkbox" id="two">Natural (206)</label>
+                             <label for="three"><input type="checkbox" id="three">Oil-Free (60)</label>
+                             <label for="one"><input type="checkbox" id="one">Phthalate-Free (593)</label>
+                             <label for="tow"><input type="checkbox" id="two">Phthalate-Free(299)</label>
+                             <label for="three"><input type="checkbox" id="three">Sulfate - Free (588)</label>
+                             <label for="one"><input type="checkbox" id="one">Vegan (471)</label>
+                             
+                         </div>
+                     </div>
+                  </form> 
+                 
+                  
+                  <form>
+                     <div class="multi9">
+                         <div class="selectbox9" onclick="showcheck9()">
+                             <select >
+                                 <option>Price</option>
+                                 
+                             </select id="select9">
+                             <hr>
+                             <div class="overselect9">
+                  
+                             </div>
+                         </div>
+                         <div id="checkbox9">
+                             <label for="one" value="sdsg"><input type="checkbox" id="one">Less than $10 (11)</label>
+                             <label for="tow"><input type="checkbox" id="two">$10 - $25 (233)</label>
+                             <label for="three"><input type="checkbox" id="three">$25 - $50 (787)</label>
+                             <label for="one"><input type="checkbox" id="one">$50 - $100 (188)</label>
+                             <label for="tow"><input type="checkbox" id="two">More than $100 (70)</label>
+                             
+                             
+                         </div>
+                     </div>
+                  </form> 
+                 
+                  
+                  <form>
+                     <div class="multi10">
+                         <div class="selectbox10" onclick="showcheck10()">
+                             <select >
+                                 <option>Saving</option>
+                                 
+                             </select id="select10">
+                             <hr>
+                             <div class="overselect10">
+                  
+                             </div>
+                         </div>
+                         <div id="checkbox10">
+                             <label for="one" value="sdsg"><input type="checkbox" id="one">up to 25% (8)</label>
+                             <label for="tow"><input type="checkbox" id="two">25% - 50% (8)</label>
+                             <label for="three"><input type="checkbox" id="three">50% - 75% (1)</label>
+                             
+                         </div>
+                     </div>
+                  </form> 
+                 
+                  
+                  <form>
+                     <div class="multi11">
+                         <div class="selectbox11" onclick="showcheck11()">
+                             <select >
+                                 <option>Average Reviews</option>
+                                 
+                             </select id="select11">
+                             <hr>
+                             <div class="overselect11">
+                  
+                             </div>
+                         </div>
+                         <div id="checkbox11">
+                             <label for="one" value="sdsg"><input type="checkbox" id="one"> 2-3 (8)</label>
+                             <label for="tow"><input type="checkbox" id="two">3-4 (84)</label>
+                             <label for="three"><input type="checkbox" id="three">4+ (915)</label>
+                             
+                         </div>
+                     </div>
+                  </form> 
+    
+            </div>
+            <div class="hairproducts">
+                <p id="head">Hair Care Products </p>
+                <p class="info">1252 results</p>
+                <p class="info">Not everyone has the same kind of hair, so it only makes sense that you use products that cater to yours. From thinning hair and oily strands to voluminous curls and sleek-straight style, Dermstore offers a curated collection of hair care products to improve the condition of your hair. Discover the best treatments for damaged hair, dry hair and scalp, hair loss and more. Stock up on your favorite hair treatments, products and tools from top brands including Oribe, Olaplex, VIRTUE®, Living Proof, R+Co and Harry Josh® Pro Tools.</p>
+                <label class="info">Sort by</label>
+                <select id="sortby" onchange="sortarr()">
+                    <option value="Default">Default</option>
+                    <option value="Bestsellers">Bestsellers</option> 
+                    <option value="Low">Price:Low to high</option>
+                    <option value="High">Price:High to low</option>
+                    <option value="A - Z">A - Z</option>
+                    <option value="Newest Arrivals">Newest Arrivals</option>
+                    <option value="Percentage Discount">Percentage Discount</option>
+                </select>
+                <div class="hairproducts1"> </div>
+    
+                
+               
+    </div>
+    </div>
+
+
+
+
+ <!-- footer -->
+ <hr>
+ <div id="container">
+    <div class="footer1">
+        <div class="footer2">
+            <p>Sign up to our newsletters and receive the latest exclusive discounts and deals</p>
+            <button class="signmeupbutton">
+                SIGN ME UP
+            </button>
+
+        </div>
+        <div class=" footer3">
+            <p1 class="font">Connect with us</p>
+           <img class ="grey" src="https://img.icons8.com/ios/50/000000/facebook-new.png"/>
+           <img class ="grey" src="https://img.icons8.com/ios/50/000000/twitter-circled--v3.png"/>
+           <img class ="grey" src="https://img.icons8.com/ios-glyphs/50/000000/instagram-circle.png"/>
+           <img class ="grey" src="https://img.icons8.com/material-outlined/50/000000/youtube-play--v1.png"/>
+           <img class ="grey" src="https://img.icons8.com/ios/50/000000/pinterest--v1.png"/>
+
+        </div>
+
+    </div>
+    
+    <div class="mainfooter4">
+        <div class="footer5">
+            <hr>
+            <table class="table1">
+                <thead>
+                   <tr>
+                       <th>Customer Service</th>
+                   </tr>
+
+                </thead>
+                <tbody>
+                   
+                   <tr>
+                       <th>Help Center / FAQs</th>
+                   </tr>
+                   <tr>
+                       <th> Returns</th>
+                   </tr>
+                   <tr>
+                       <th> Shipping Information</th>
+                   </tr>
+                   <tr>
+                       <th> Order Status</th>
+                   </tr>
+                </tbody>
+            </table>
+        </div>
+        <div  class="footer6">
+            <hr>
+            <table>
+               <thead>
+                  <tr>
+                      <th>MY Account</th>
+                  </tr>
+
+               </thead>
+               <tbody>
+                  
+                  <tr>
+                      <th>Manage My Subscription</th>
+                  </tr>
+                  <tr>
+                      <th> MY reward</th>
+                  </tr>
+                  <tr>
+                      <th> My favourite</th>
+                  </tr>
+                  <tr>
+                      <th>  referals</th>
+                  </tr>
+                  <tr>
+                      <th>Order History</th>
+                  </tr>
+               </tbody>
+           </table>
+        </div>
+        <div class="footer7">
+            <hr>
+            <table>
+               <thead>
+                  <tr>
+                      <th>Company</th>
+                  </tr>
+
+               </thead>
+               <tbody>
+                  
+                  <tr>
+                      <th>About Us </th>
+                  </tr>
+                  <tr>
+                      <th> Press</th>
+                  </tr>
+                  <tr>
+                      <th>  What is Afterpay</th>
+                  </tr>
+                  
+               </tbody>
+           </table>
+        </div>
+        <div class="footer8">
+            <hr>
+            <table>
+               <thead>
+                  <tr>
+                      <th>Privacy Plicy</th>
+                  </tr>
+
+               </thead>
+               <tbody>
+                  
+                  <tr>
+                      <th>Terms & Condition</th>
+                  </tr>
+                  <tr>
+                      <th> Modern Slavery Statement</th>
+                  </tr>
+                  <tr>
+                      <th> Product REcall </th>
+                  </tr>
+                  <tr>
+                      <th>  Accessibility</th>
+                  </tr>
+               </tbody>
+           </table>
+        </div>
+         
+    </div>
+ </div>
+ <hr>
+ <div class="mainfooter9">
+     <img class="img" src="card.png" alt="loading">
+
+ </div>
+ <hr>
+ 
+</body>
+</html>
+
+<script src="haircare.js"></script>
