@@ -19,7 +19,8 @@
 </p>
 
   <h3>Snapshots</h3>
-  ![](Dermstore/dermstore1.png)
+  ![dermstore1](https://github.com/mugilmalathi/DermStore/blob/main/Dermstore/dermstore1.png)
+
   
 
   <h3>Contributors:</h3>
