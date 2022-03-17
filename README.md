@@ -19,6 +19,7 @@
 </p>
 
   <h3>Snapshots</h3>
+  ![](Dermstore/dermstore1.png)
   
 
   <h3>Contributors:</h3>
