@@ -19,16 +19,7 @@
 </p>
 
   <h3>Snapshots</h3>
-  ![](Dermstore/dermstore1.png)
-  ![](Dermstore/dermstore2.png)
-  ![](Dermstore/dermstore3.png)
-  ![](Dermstore/dermstore4.png)
-  ![](Dermstore/dermstore5.png)
-  ![](Dermstore/dermstore6.png)
-  ![](Dermstore/dermstore7.png)
-  ![](Dermstore/dermstore8.png)
-  ![](Dermstore/dermstore9.png)
-  ![](Dermstore/dermstore10.png)
+  
 
   <h3>Contributors:</h3>
   <ol>
