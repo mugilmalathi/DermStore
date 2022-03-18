@@ -1,3 +1,4 @@
+
 <h1>Dermstore Clone</h1>
   <p>Dermstore is a skin care and beauty e-commerce site and it is the United States based company.</p>
   <h4>Features:</h4>
@@ -17,17 +18,35 @@
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img style="margin-left:40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img style="margin-left:40px" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="javascript" width="40" height="40"/> </a> 
 </p>
-
-  <h3>Snapshots</h3>
-  ![dermstore1](https://github.com/mugilmalathi/DermStore/blob/main/Dermstore/dermstore1.png)
-
   
-
   <h3>Contributors:</h3>
   <ol>
-    <li>Abhijeeth:<a href="https://github.com/mugilmalathi"></a></li>
-    <li>Vignesh:<a href="https://github.com/mugilmalathi"></a></li>
-    <li>Harish:<a href="https://github.com/mugilmalathi"></a></li>
-    <li>Ashish:<a href="https://github.com/mugilmalathi"></a></li>
-    <li>Arpan:<a href="https://github.com/mugilmalathi"></a></li>
+    <li>Abhijeeth:https://github.com/abhijeeth</li>
+    <li>Vignesh:https://github.com/vignesh</li>
+    <li>Harish:https://github.com/harish</li>
+    <li>Ashish:https://github.com/ashish</li>
+    <li>Arpan:https://github.com/arpan</li>
   </ol>
+  
+    Snapshots:
+    
+   Landing Page
+  ![](/Dermstore/dermstore1.png)
+  Signup Page
+   ![](/Dermstore/dermstore2.png)
+   Login Page
+    ![](/Dermstore/dermstore3.png)
+    Products Page
+     ![](/Dermstore/dermstore4.png)
+     Sorting Functionality Page:
+      ![](/Dermstore/dermstore5.png)
+      Product Page:
+       ![](/Dermstore/dermstore6.png)
+       Add to Cart Page
+        ![](/Dermstore/dermstore7.png)
+        Payment Address Page
+         ![](/Dermstore/dermstore8.png)
+         Payment Page
+          ![](/Dermstore/dermstore9.png)
+          Payment Successful Page
+           ![](/Dermstore/dermstore10.png)
